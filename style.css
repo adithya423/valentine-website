@@ -1,0 +1,12 @@
+body{background:#ffe6ef;font-family:Poppins,sans-serif;text-align:center;padding:30px;}
+.container{margin-top:60px;}h1,h2{color:#e91e63;}
+.button-box{margin-top:40px;}
+.yes-btn,.no-btn,.next-btn,.song-list button{padding:14px 25px;font-size:20px;border:none;border-radius:12px;cursor:pointer;margin:10px;background:#ff6fa8;color:#fff;transition:.3s;}
+.no-btn{position:relative;background:#ff99b9;}
+.gallery img{width:85%;margin:12px 0;border-radius:15px;}
+.cat-container{position:fixed;bottom:10px;width:100%;left:0;pointer-events:none;}
+.cat{width:110px;position:absolute;animation:floatCat 6s ease-in-out infinite;opacity:.9;}
+.cat-left{left:10px;} .cat-right{right:10px;animation-delay:1.5s;}
+@keyframes floatCat{0%{transform:translateY(0)}50%{transform:translateY(-12px)}100%{transform:translateY(0)}}
+.walk-cat{position:fixed;bottom:20px;left:-150px;width:130px;animation:walkAcross 12s linear infinite;}
+@keyframes walkAcross{from{left:-150px}to{left:110%}}
